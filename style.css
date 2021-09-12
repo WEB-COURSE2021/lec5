@@ -1,0 +1,69 @@
+* {
+    color: black;
+}
+
+body {
+    color: blue;
+    text-transform: capitalize;
+}
+
+h1 {
+    /* Now I am using specific rule */
+    text-align: center;
+    color: red;
+    /* color name */
+}
+
+h1 {
+    /* Now I am using last rule */
+    color: rgb(0, 196, 16);
+    /* rgb color */
+}
+
+h1 {
+    /* Now I am using important rule so if we have last rule it will will select important rule not another rule */
+    color: pink !important;
+    text-transform: lowercase !important;
+}
+
+a {
+    /* Now I am using specific rule */
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    font-size: 1em;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+span {
+    text-transform: lowercase;
+    color: inherit;
+    /* inherit the color form body */
+}
+
+.the_div {
+    text-transform: inherit;
+}
+
+div {
+    background-color: #eeeeee;
+    /* Hexa Code color */
+}
+
+hr {
+    /* i will clarify this attribute next session */
+    margin-top: 30px;
+}
+
+#p22 {
+    color: blueviolet;
+    font-size: 2em;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font family */
+    font-style: oblique;
+    /* font stlye family */
+}
